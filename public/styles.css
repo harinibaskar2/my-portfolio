@@ -23,13 +23,13 @@ h1 {
 
 h3 {
   font-family: "Pacifico", cursive;
-  color: #fff;
+  color: rgb(22, 3, 3)000;
   font-size: 30px;
 }
 
 h4 {
   font-family: "Pacifico", cursive;
-  color: #fff;
+  color: #0b0202;
   font-size: 16px;
 }
 
@@ -40,11 +40,11 @@ h4 {
 
 p {
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #0c0202;
 }
 
 .accent-text {
-  color: #0a323b;
+  color: rgb(0, 0, 0);
   display: inline;
   margin: 0;
   font-size: 100px;
