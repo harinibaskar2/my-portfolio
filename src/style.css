@@ -44,7 +44,7 @@ p {
 }
 
 .accent-text {
-  color: #0a323b;
+  color: rgb(156, 80, 168);
   display: inline;
   margin: 0;
   font-size: 100px;
