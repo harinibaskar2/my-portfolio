@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Modak&family=Monofett&family=Pacifico&family=Passions+Conflict&family=Poppins:wght@300&family=Righteous&family=Roboto&family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Sofia+Sans+Semi+Condensed:ital,wght@0,600;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-.bg-rosepink {
-  background-color: #ed859f;
+body {
+  background-color: #000;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -44,7 +44,7 @@ p {
 }
 
 .accent-text {
-  color: rgb(156, 80, 168);
+  color: #0a323b;
   display: inline;
   margin: 0;
   font-size: 100px;
@@ -73,7 +73,7 @@ p {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #34eb83;
 }
 
 .learn-more-button {
