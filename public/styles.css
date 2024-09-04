@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kalam&family=Sofia+Sans+Semi+Condensed:ital,wght@0,600;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 body {
-  background-color: #ed859f;
+  background-color: #000;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -23,13 +23,13 @@ h1 {
 
 h3 {
   font-family: "Pacifico", cursive;
-  color: rgb(22, 3, 3)000;
+  color: #fff;
   font-size: 30px;
 }
 
 h4 {
   font-family: "Pacifico", cursive;
-  color: #0b0202;
+  color: #fff;
   font-size: 16px;
 }
 
@@ -40,11 +40,11 @@ h4 {
 
 p {
   font-family: "Poppins", sans-serif;
-  color: #0c0202;
+  color: #fff;
 }
 
 .accent-text {
-  color: rgb(0, 0, 0);
+  color: #0a323b;
   display: inline;
   margin: 0;
   font-size: 100px;
@@ -73,7 +73,7 @@ p {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #34eb83;
 }
 
 .learn-more-button {
