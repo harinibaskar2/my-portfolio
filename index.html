@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Harini's portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="src/style.css" />
-  </head>
-  <body>
-    <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg sticky-top bg-rosepink">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Harini Baskar</a>
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="src/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Code:wght@400;700&display=swap"
+
+
+  />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-rosepink">
+    <div class="container">
       <button
         class="navbar-toggler"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
+        data-toggle="collapse"
+        data-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -29,10 +34,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse justify-content-end"
+        class="collapse navbar-collapse justify-content-center"
         id="navbarNav"
       >
-        <ul class="nav justify-content-end">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -49,7 +54,21 @@
       </div>
     </div>
   </nav>
-  
+  <!-- White line underneath the navbar -->
+  <div class="navbar-line"></div>
+  <!-- Content -->
+  <div class="container">
+    <!-- Your content goes here -->
+  </div>
+  <!-- Add Bootstrap JS and dependencies if needed -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK3F8kKjL6ke8q6/5lE9f12EY1w/tLw/aD3s9Y3N3Q0ZeQ" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UOaR/0t77Yp8jcZVs5A1zByR1kzU0fJg3Q5BL15wr0v4n0M6hF5x1C2qP7Ti1fK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-f1YpDa6k1XyAi4Y+b7ftsygDgz0hTgtljA50llhTgtz82eG1zUpR5l7JXZ4b1VZ" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
   
 <!-- HEADER SECTION -->
 <div class="header-section">
@@ -59,10 +78,11 @@
       <h1 class="header-name">
         Harini<span class="accent-text">.</span>
       </h1>
-      <p class="header-about">
-        Aspiring Software Engineer. Student at California Polytechnic State
-        University majoring in Computer Science. 
-      </p>
+      <div class="header-name">
+        <p class="header-name">
+          Aspiring Software Engineer. Student at California Polytechnic State University majoring in Computer Science.
+        </p>
+      </div>
       <a href="#experiences">
         <button class="learn-more-button styled-button">Learn more</button>
       </a>
@@ -73,122 +93,166 @@
   </div>
 </div>
 
+
+
+
   
-      <!-- EXPERIENCES SECTION -->
-      <div id="experiences" class="experiences section">
-        <div class="experiences-card-holder">
-          <div class="experiences-card-column-1">
-            <div class="card-1 flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img class="enac-img" src="src/java.PNG" alt="Avatar" /> 
+<!-- EXPERIENCES SECTION -->
+<div id="experiences" class="experiences section">
+  <div class="experiences-card-holder">
+    <div class="experiences-card-column-1">
+      <div class="card-1 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="enac-img" src="src/java.PNG" alt="Virtual World Simulation" />
+          </div>
+          <div class="flip-card-back">
+            <h4>Virtual World Simulation</h4>
+            <p class="card-2-text">
+              Technologies: Java, UML, Object-Oriented Programming<br/>
+              Project Overview: Refactored and redesigned a large, object-oriented virtual world game project 
+              to improve code cohesion and maintainability. Developed comprehensive UML diagrams for the refactored design, 
+              reflecting the improved class structures and relationships. Enhanced the movement behavior of entities within a virtual world simulation by implementing advanced pathfinding algorithms.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-2 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="pvg-img" src="src/TravelAgent.PNG" alt="Responsible AI Travel Agent" />
+          </div>
+          <div class="flip-card-back">
+            <h4>Responsible AI Travel Agent</h4>
+            <p class="card-2-text">
+              Technologies: Amazon Bedrock Models, Google Search API, Amazon Guardrails, Amazon Comprehend<br/>
+              Project Overview: This AI application focuses on creating a secure, user-specific environment 
+              that respects privacy and ensures fair, unbiased interactions. The use case is for a travel agency 
+              where customers interact with AI-powered agents to get personalized travel recommendations and ensure 
+              the accuracy of the information provided. Each response generated by the AI is carefully curated to uphold 
+              these principles, fostering trust and reliability in the interactions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="experiences-card-column-2">
+      <div class="card-3 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="prereq-img" src="src/huffman.PNG" alt="Huffman Coding Algorithm" />
+          </div>
+          <div class="flip-card-back">
+            <h4>Huffman Coding Algorithm </h4>
+            <p class="card-3-text">
+              Technologies: Python <br/>
+              Enforced a data compression algorithm, Huffman coding algorithm, 
+              to decode and code files. Priority queues and search trees were 
+              used to reduce file size by respectively accounting for character 
+              occurrence frequency in the inputted file and ASCII value memory cost.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-4 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img class="hca-img" src="src/csai.PNG" alt="Computer Science and AI Club" />
+          </div>
+          <div class="flip-card-back">
+            <h4>Computer Science and Artificial Intelligence Club</h4>
+            <p class="card-4-text">
+              Role: Social Media Officer<br/>
+              Manage the club’s social media team, coordinate meeting times, and create sprints to delegate weekly tasks.
+              Implement targeted social media campaigns, resulting in a marked increase in customer interaction and engagement across key
+              platforms. Lead initiatives to develop projects, workshops, and lectures to enhance members' understanding of AI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="experiences-content-holder">
+    <h2 class="experiences-intro">Experiences and Projects</h2>
+  </div>
+</div>
+
+
+  
+
+  
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- About Me Section -->
+        <section class="about">
+            <!-- Typed.js effect here -->
+            <div class="typed-text"></div>
+
+
                 </div>
-                <div class="flip-card-back">
-                    <h4>  Virtual World Simulation
-                    <p class="card-2-text">
-                        Technologies: Java, UML, Object-Oriented Programming
-                        Project Overview: Refactored and redesigned a large, object-oriented virtual 
-                        world game project to improve code cohesion and maintainability. Developed comprehensive UML diagrams
-                        for the refactored design, reflecting the improved class structures and relationships.
-                        Enhanced the movement behavior of entities within a virtual world simulation 
-                        by implementing advanced pathfinding algorithms.
+
+                <!-- Description Box -->
+                <div class="col-md-8 description-box">
+                    <p>
+                        I'm a Computer Science student at California Polytechnic State University, San Luis Obispo, where the "learn by doing" philosophy has fueled my passion for technology and creativity. Every project I tackle pushes me to think beyond the obvious, blending theory with practical applications to create real-world impact.
+                        At People Tech Group, I played a crucial role in developing Generative AI solutions that enhance customer experiences while ensuring privacy and fairness. Specifically, I worked on an AI-driven travel agency application that provided personalized recommendations, adhering to Responsible AI principles to build trust and reliability.
+                        My projects reflect my passion for solving real-world problems through technology. Whether it’s developing secure AI-driven solutions for a travel agency app or leveraging Amazon Q Developer for efficient code debugging and maintenance, I strive to create impactful and innovative solutions.
+                        Outside of my professional pursuits, I enjoy singing, hiking, and spending quality time with my family. My journey is one of continuous learning, and I look forward to the opportunities ahead. Feel free to explore my resume for a detailed overview of my experiences and skills!
                     </p>
-                  </div>
-              </div>
+                </div>
             </div>
-            <div class="card-2 flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img class="pvg-img" src="src/TravelAgent.PNG" alt="Avatar" />
-                </div>
-                <div class="flip-card-back">
-                  <h4> Responsible AI Travel Agent 
-                  
-                  <p class="card-2-text">
-                    Technologies: Amazon Bedrock Models, Google Search API, Amazon Guardrails, Amazon Comprehend 
-                    Project Overview: This AI application focuses on creating a secure, user-specific environment 
-                    that respects privacy and ensures fair, unbiased interactions. The use case is for a travel agency 
-                    where customers interact with AI-powered agents to get personalized travel recommendations and ensure 
-                    the accuracy of the information provided. Each response generated by the AI is carefully curated to uphold 
-                    these principles, fostering trust and reliability in the interactions.
-  
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="experiences-card-column-2">
-            <div class="card-3 flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img class="prereq-img" src="src/huffman.PNG" alt="Avatar" />
-                </div>
-                <div class="flip-card-back">
-                  <h4>Huffman Coding Algorithm(Java)
-                  <p class="card-3-text">
-                    Enforced a data compression algorithm, Huffman coding algorithm, 
-                    to decode and code files. Priority queues and search trees were 
-                    used to reduce file size by respectively accounting for character 
-                    occurrence frequency in the inputted file and ASCII value memory cost.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-4 flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img class="hca-img" src="src/csai.PNG" alt="Avatar" />
-                </div>
-                <div class="flip-card-back">
-                  <h4>Computer Science and Artifical Intelligence Club
-                  <p class="card-4-text">
-                    Role: Social Media Officer
-                    Manage the club’s social media team, coordinate meeting times, and create sprints to delegate weekly tasks.
-                    Implement targeted social media campaigns, to result in a marked increase in customer interaction and engagement across key
-                    platforms.
-                    Lead initiatives to develop projects, workshops, and lectures to enhance members understanding of AI.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="experiences-content-holder">
-          <h2 class="experiences-intro">Experiences and Projects</h2>
-        </div>
-      </div>
-  
-      <!-- ABOUT ME SECTION -->
-      <div id = "aboutme" div class="aboutme section">
-  
-        <div class="cards">
-          <h3 class="grid-tagline">Hello!</h3>
-          <h1 class="grid-header">A bit about me</h1>
-          <div class="card card__one">
-            <div class="card__bg"></div>
-            <img class="card__img" src="src/harini.png" />
-          </div>
-          <div class="card card__two">
-            <div class="card__bg"></div>
-            <img class="card__img" src="src/hiking.PNG" />
-          </div>
-          <div class="card card__three">
-            <div class="card__bg"></div>
-            <img class="card__img" src="src/red.PNG" />
-          </div>
-        </div>
-        <div class="about-text-container">
-          <h2 class="about-header">About me!</h2>
-          <p class="about-paragraph" style="font-size: 12px; text-align:justify;">
-            As a Computer Science student at California Polytechnic State University - San Luis Obispo, I’ve developed a deep appreciation for the "learn by doing" philosophy. This approach has instilled in me a relentless drive to excel in everything I pursue, preparing me effectively for the workforce. As a computer science student, I am eager to explore various industry opportunities, ranging from software development to cloud engineering.
-            I’ve had the opportunity to work on projects that bridge the gap between theory and real-world application. At People Tech Group, I played a crucial role in developing Generative AI solutions that enhance customer experiences while ensuring privacy and fairness. Specifically, I worked on an AI-driven travel agency application that provides personalized recommendations, adhering to Responsible AI principles to build trust and reliability. 
-            My projects reflect my passion for solving real-world problems through technology. Whether it’s developing secure AI-driven solutions for a travel agency app or leveraging Amazon Q Developer for efficient code debugging and maintenance, I strive to create impactful and innovative solutions.
-            Outside of my professional pursuits, I enjoy singing, hiking, and spending quality time with my family. I eagerly anticipate the challenges and opportunities that await. Feel free to explore my resume for a detailed overview of my experiences and skills!
-        </div>
-        
-  
-      </div>
-  
+        </section>
+    </div>
+
+    <!-- Include Typed.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".typed-text", {
+        strings: ["About Me:"],
+        typeSpeed: 50,    // Speed at which the text is typed
+        backSpeed: 25,    // Speed at which text is erased
+        loop: true,       // Loop the typing animation
+        backDelay: 1500,  // Delay before erasing starts
+        startDelay: 500   // Delay before typing starts
+      });
+    </script>
+
+    <!-- Image Slide-in JavaScript -->
+    <script>
+      // Function to check if the image is in the viewport
+      function isInViewport(element) {
+          const rect = element.getBoundingClientRect();
+          return (
+              rect.top >= 0 &&
+              rect.left >= 0 &&
+              rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+              rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+      }
+
+      // Trigger the slide effect when the image enters the viewport
+      window.addEventListener('scroll', function() {
+          const image = document.getElementById('profile-image');
+          if (isInViewport(image)) {
+              image.classList.add('active');
+          }
+      });
+    </script>
+</body>
+</html>
+
+
+
+      
   
   
       <!-- FOOTER SECTION -->
